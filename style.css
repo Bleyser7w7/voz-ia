@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111827;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    background: #1f2937;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  select, button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #1d4ed8;
+  }
+  
+  #estado {
+    margin-top: 15px;
+    color: #93c5fd;
+  }
